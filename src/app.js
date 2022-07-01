@@ -9,6 +9,9 @@ const viewsPath = path.join(__dirname, "../templates/views");
 const partialsPath = path.join(__dirname, "../templates/partials");
 
 
+// testing test-3 branch for PR raised and merge using the commandline options - commit 1
+// nothing to do here - commit 2
+
 // this line is setting the view engine inside the Node to hbs
 app.set("view engine", "hbs");
 app.set("views", viewsPath);
